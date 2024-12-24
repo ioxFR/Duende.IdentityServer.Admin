@@ -3,6 +3,7 @@
     public class LdapProviderConfiguration
     {
         public string Host { get; set; }
+        public int Port { get; set; }
         public string ServiceAccount { get; set; }
         public string ServicePassword { get; set; }
     }
